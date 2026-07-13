@@ -10,12 +10,6 @@ A hotend with an integrated load cell, for nozzle probing, and a lot more.
 
 The current release schedule is 'Fairly Soon™' (Q3/Q4 2026).
 
-## Beta Testing
-
-Amplify is currently preparing for a beta.
-
-If you would like to get involved, please join the [Discord](https://discord.gg/HTMsCcjyYD).
-
 ## Core Features
 
 - **Never need to calibrate a Z offset ever again**
@@ -55,7 +49,7 @@ Initial support for Amplify will launch with Stealthburner. It will be a communi
 - A4T
 - Archetype
 
-Want to contribute your own? Join the [Discord](https://discord.gg/HTMsCcjyYD).
+Want to contribute your own? Join the [Voron Discord](https://discord.com/channels/460117602945990666/1526211393718587433) thread.
 
 ## Sponsors
 
