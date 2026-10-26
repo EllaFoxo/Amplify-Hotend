@@ -1,0 +1,12 @@
+# Copyright (c) 2026, Ella Fox
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+[book]
+title = "Amplify Hotend Wiki"
+authors = ["Ella Fox"]
+language = "en"
+src = "src"
+
+[output.html]
+git-repository-url = "https://github.com/EllaFoxo/Amplify-Hotend"
+edit-url-template = "https://github.com/EllaFoxo/Amplify-Hotend/edit/main/docs/src/{path}"
