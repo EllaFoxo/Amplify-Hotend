@@ -35,7 +35,7 @@ The current release schedule is 'Fairly Soon™' (Q4 2026).
 - E3D Revo compatible
 - V6/Volcano supported with a Hemera heat break
 - Standalone USB module (STM32)
-- 320Hz sampling rate
+- 2kHz sampling rate
 - Average ~100-300g of force applied to the print surface (configurable in Kalico)
 - Operating temperatures:
   - PCB rated for 80C max temperature
