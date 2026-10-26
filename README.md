@@ -8,14 +8,14 @@ A hotend with an integrated load cell, for nozzle probing, and a lot more.
 
 ## When?
 
-The current release schedule is 'Fairly Soon™' (Q3/Q4 2026).
+The current release schedule is 'Fairly Soon™' (Q4 2026).
 
 ## Core Features
 
 - **Never need to calibrate a Z offset ever again**
 - No temperature drift in enclosed printers
 - Always reads the true zero point of your bed, no scanning the wrong surface
-- Best-in-Class precision. Accuracy within 0.8 to 4 microns (0.0008 - 0.004 mm) across 10-100 samples
+- Best-in-Class precision. Accuracy within 0.8 to 2 microns (0.0008 - 0.002 mm) across 10-100 samples
 - Works on **any** surface (smooth/textured PEI, glass, metal, etc.)
 
 ## Extra Features
@@ -24,7 +24,7 @@ The current release schedule is 'Fairly Soon™' (Q3/Q4 2026).
 - Automatic dirty nozzle detection
 - Built-in nozzle cleanup macros, or bring your own gcode
 - Ability to read filament pressure build-up, giving you:
-  - Clog detection
+  - Clog detection (soon)
   - Max flow rate calibration (coming soon)
   - Automatic pressure advance calibration (coming soon)
 - Fast bed meshings (single probe per mesh point, combined with adaptive meshing)
@@ -46,8 +46,7 @@ The current release schedule is 'Fairly Soon™' (Q3/Q4 2026).
 Initial support for Amplify will launch with Stealthburner. It will be a community effort to port Amplify to other toolheads. The primary focus is on toolheads for larger Voron machines, such as:
 
 - Stealthburner
-- AntHead
-- A4T
+- [AntHead](./Toolheads/AmpHead)
 
 Want to contribute your own? Join the [Voron Discord](https://discord.com/channels/460117602945990666/1526211393718587433) thread.
 
