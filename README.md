@@ -12,23 +12,31 @@ The current release schedule is 'Fairly Soon™' (Q4 2026).
 
 ## Core Features
 
-- **Never need to calibrate a Z offset ever again**
-- No temperature drift in enclosed printers
-- Always reads the true zero point of your bed, no scanning the wrong surface
-- Best-in-Class precision. Accuracy within 0.8 to 2 microns (0.0008 - 0.002 mm) across 10-100 samples
+- Best-in-Class precision. 30 Samples: 0.0015mm range, 0.00032mm std dev, 0.000245 average delta.
+- **Never calibrate a Z offset ever again.** Where we're going, we don't need offsets.
+- Blazingly fast mesh speeds with only a single tap, and accurate on the first try, every try. Powerfully couple it with adaptive mesh for the best results.
+- Lets you use the whole bed surface, edge-to-edge. No high spots towards the edge of the bed unlike eddy surface scanners.
+- Flawless first layers, every single time. Hit print, and walk away.
+- No temperature drift in enclosed printers thanks to continuous tare
+- Always reads the true zero point of your bed, accounting for texture and thickness properly.
+- Probes your print sheet directly, accounting for damaged PEI and the likes.
+- Won't damage your print sheets. Low probe force and 140-170C probe temperature.
 - Works on **any** surface (smooth/textured PEI, glass, metal, etc.)
 
 ## Extra Features
 
-- Native Kalico integration without plugins
+- Native Kalico integration without plugins, and with strong community support.  
+  Not running Kalico? Now's a [great chance to migrate](https://docs.kalico.gg/Migrating_from_Klipper.html).
 - Automatic dirty nozzle detection
+- Slightly higher probe force accounts for ooze from the nozzle to squish it out of the way, and preventing it from skewing readings
 - Built-in nozzle cleanup macros, or bring your own gcode
-- Ability to read filament pressure build-up, giving you:
-  - Clog detection (soon)
-  - Max flow rate calibration (coming soon)
-  - Automatic pressure advance calibration (coming soon)
-- Fast bed meshings (single probe per mesh point, combined with adaptive meshing)
 - Advanced noise filtering and bowden tube compensation
+- Fine tune further by reading how much your nozzle grows from thermal expansion, it's that sensitive.
+- Far greater fault tolerance than eddy contact probes for Z=0 finding
+- Future capabilities to read filament pressure build-up will unlock:
+  - Clog detection
+  - Max flow rate calibration
+  - Automatic pressure advance calibration
 
 ## Specs
 
@@ -43,7 +51,7 @@ The current release schedule is 'Fairly Soon™' (Q4 2026).
 
 ## Toolhead Support
 
-Initial support for Amplify will launch with Stealthburner. It will be a community effort to port Amplify to other toolheads. The primary focus is on toolheads for larger Voron machines, such as:
+Initial support for Amplify will launch with Stealthburner and AntHead. It will be a community effort to port Amplify to other toolheads. The primary focus is on toolheads for larger Voron machines, such as:
 
 - Stealthburner
 - [AntHead](./Toolheads/AmpHead)
