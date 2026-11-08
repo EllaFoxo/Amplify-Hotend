@@ -54,6 +54,7 @@ The current release schedule is 'Fairly Soon™' (Q4 2026).
 Initial support for Amplify will launch with Stealthburner and AntHead. It will be a community effort to port Amplify to other toolheads. The primary focus is on toolheads for larger Voron machines, such as:
 
 - Stealthburner
+- DownDraft
 - [AntHead](./Toolheads/AmpHead)
 
 Want to contribute your own? Join the [Voron Discord](https://discord.com/channels/460117602945990666/1526211393718587433) thread.
